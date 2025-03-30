@@ -120,7 +120,7 @@ void solve_task(FILE *out, const char *v, const int N, const int M, const int K)
 int main(int argc, const char* argv[]) {
     
     if(argc < 3 || argc % 2 == 0) {
-        printf("eroaREEEEEEE!!!");
+        printf("Eroare!");
         return 1;
     }
 
@@ -143,8 +143,6 @@ int main(int argc, const char* argv[]) {
         
         //Verific integritatea(? e termenul corect?) fisierelor
         if(!(check_file(in) && check_file(out))) {
-            fprintf(stderr, "Eroare input/output: %s", argv[t]);
-
             //Inchid ce fisiere au fost deschise, t-=2...
             CLEANUP;
             continue;
