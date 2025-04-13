@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -O2 -Wall -Wextra -std=c99
-SRC = GameOfLife.c
+SRC = GameOfLife.c list.c stack.c
 OUT = a.out
 
 INPUT_DIR = InputData
