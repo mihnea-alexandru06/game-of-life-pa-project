@@ -18,10 +18,10 @@ graph_t *create_graph(unsigned int nodes) {
     if(graph_ptr == NULL)
         return NULL;
 
-    graph_ptr->nodes  = nodes;
-    graph_ptr->edges  = 0;
+    graph_ptr->nodes = nodes;
+    graph_ptr->edges = 0;
     graph_ptr->degree = calloc(nodes, sizeof(unsigned int));
-    graph_ptr->adj    = calloc((size_t) nodes * nodes, sizeof(unsigned int));
+    graph_ptr->adj = calloc((size_t) nodes * nodes, sizeof(unsigned int));
 
     if(graph_ptr->degree == NULL || graph_ptr->adj == NULL) {
         free(graph_ptr->degree);
