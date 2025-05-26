@@ -1,7 +1,5 @@
 # Conway’s Game of Life – PA Project
 
-<img src="https://github.com/mihnea-alexandru06.png" width="100" alt="GitHub avatar">
-
 [![Author](https://img.shields.io/badge/author-mihnea--alexandru06-blue)](https://github.com/mihnea-alexandru06)
 
 A straight‑C implementation of several algorithm‑heavy extensions to **Conway’s Game of Life**, developed for the *Proiectarea Algoritmilor* course.
@@ -41,7 +39,7 @@ cd game-of-life-pa
 make            # produces ./game_of_life
 
 # Optional helpers
-make debug      # adds -g + sanitizers, no optimisations
+make run        # runs for sample input
 make clean      # removes objects & binary
 ```
 
