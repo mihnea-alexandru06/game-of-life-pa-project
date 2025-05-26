@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -O2 -Wall -Wextra -std=c99 -Iinclude
 SRC_DIR = src
 SRC = $(wildcard $(SRC_DIR)/*.c)
-OUT = a.out
+OUT = game_of_life.out
 
 INPUT_DIR = InputData
 OUTPUT_DIR = OutputData
@@ -18,14 +18,14 @@ $(OUT): $(SRC)
 	$(CC) $(CFLAGS) $(SRC) -o $(OUT)
 
 run: $(OUT) | $(OUTPUT_DIR)
-	@echo "Se genereaza outputul..."
+	@echo "Generating output..."
 	@./$(OUT) $(FILE_ARGS)
-	@echo "Programul a fost rulat."
+	@echo "Executed."
 
 $(OUTPUT_DIR):
 	@mkdir -p $(OUTPUT_DIR)
 
 clean:
-	@echo "Curatare..."
+	@echo "Cleaning..."
 	@rm -f $(OUT)
 	@rm -rf $(OUTPUT_DIR)
