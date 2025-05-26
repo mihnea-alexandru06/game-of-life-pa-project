@@ -32,8 +32,8 @@ The code showcases linked lists, stacks, binary trees and graphs to solve four p
 
 ```bash
 # Clone your fork
-git clone https://github.com/mihnea-alexandru06/game-of-life-pa.git
-cd game-of-life-pa
+git clone https://github.com/mihnea-alexandru06/game-of-life-pa-project.git
+cd game-of-life-pa-project
 
 # Build the release binary
 make            # produces ./game_of_life
