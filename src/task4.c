@@ -8,13 +8,13 @@ static void handler(const treenode_t *ptr, grid_t *curr_grid, FILE *out) {
     if(ptr->gen_k > 0)
         apply_changes(curr_grid, ptr->changes);
 
-    graph_t *g = build_graph(curr_grid);
-    path_t p   = longest_hamiltonian(g);
+    graph_t *graph_ptr = build_graph(curr_grid);
+    path_t path = longest_hamiltonian(graph_ptr);
 
-    print_path(out, &p);
+    print_path(out, &path);
 
-    free_path(&p);
-    free_graph(g);
+    free_path(&path);
+    free_graph(graph_ptr);
 }
 
 
