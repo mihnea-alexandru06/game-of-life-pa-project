@@ -1,5 +1,7 @@
 .checker_temp/
+InputData/
 OutputData/
+RefData/
 a.out
 checker_log.txt
 
@@ -21,3 +23,10 @@ build/
 cmake-build-*/
 
 desktop.ini
+
+*.ref
+*.zip
+*.png
+*.txt
+config.json
+checker-linux-amd64

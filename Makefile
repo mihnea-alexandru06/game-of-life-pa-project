@@ -1,6 +1,7 @@
 CC = gcc
-CFLAGS = -O2 -Wall -Wextra -std=c99
-SRC = GameOfLife.c list.c stack.c
+CFLAGS = -O2 -Wall -Wextra -std=c99 -Iinclude
+SRC_DIR = src
+SRC = $(wildcard $(SRC_DIR)/*.c)
 OUT = a.out
 
 INPUT_DIR = InputData
