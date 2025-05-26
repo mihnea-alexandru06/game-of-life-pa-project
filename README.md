@@ -1,5 +1,7 @@
 # Conway’s Game of Life – PA Project
 
+<img src="https://github.com/mihnea-alexandru06.png" width="100" alt="GitHub avatar">
+
 [![Author](https://img.shields.io/badge/author-mihnea--alexandru06-blue)](https://github.com/mihnea-alexandru06)
 
 A straight‑C implementation of several algorithm‑heavy extensions to **Conway’s Game of Life**, developed for the *Proiectarea Algoritmilor* course.
