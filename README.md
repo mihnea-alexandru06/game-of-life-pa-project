@@ -12,7 +12,7 @@ A **straight‑C** showcase of data‑structure‑heavy extensions to **Conway�
 2. [Project layout](#project-layout)
 3. [Building](#building)
 4. [Running](#running)
-5. [How it works (quick peek)](#how-it-works-quick-peek)
+5. [Internals](#internals)
 
 ---
 
@@ -97,7 +97,7 @@ T N M K
 
 ---
 
-## How it works (quick peek)
+## Internals
 
 * **Flat grid** — cells live in a 1‑D char array; helpers in `grid.c` do index math & state flips.
 * **Sparse delta stack** — Task 2 records only cells that change, slashing memory on sparse boards.
