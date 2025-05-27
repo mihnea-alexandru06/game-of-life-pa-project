@@ -54,11 +54,11 @@ $ git clone https://github.com/mihnea-alexandru06/game-of-life-pa-project.git
 $ cd game-of-life-pa-project
 
 # Release build (default target)
-$ make          # → ./game_of_life
+$ make            # → ./game_of_life
 
-# Extras
-$ make debug    # -g -O0 instrumentation
-$ make clean    # wipe *.o and binaries
+# Optional helpers
+$ make run        # runs for sample input
+% make clean      # removes objects & binary
 ```
 
 > **Requires:** a C11‑compatible compiler (e.g. `gcc`, `clang`) and `make` on Linux, macOS or WSL. No external libraries needed.
