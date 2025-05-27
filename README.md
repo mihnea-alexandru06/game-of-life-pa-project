@@ -58,7 +58,7 @@ $ make            # → ./game_of_life
 
 # Optional helpers
 $ make run        # runs for sample input
-% make clean      # removes objects & binary
+$ make clean      # removes objects & binary
 ```
 
 > **Requires:** a C11‑compatible compiler (e.g. `gcc`, `clang`) and `make` on Linux, macOS or WSL. No external libraries needed.
