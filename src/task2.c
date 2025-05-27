@@ -32,8 +32,7 @@ static int verify_reconstruction(const grid_t *final_grid, const grid_t *init_gr
     return 1;
 }
 
-void solve_task2(FILE *out, const grid_t *init_grid, const int K)
-{
+void solve_task2(FILE *out, const grid_t *init_grid, const int K) {
     const int N = init_grid->rows, M = init_grid->cols;
     stack_t st = NULL;
 
